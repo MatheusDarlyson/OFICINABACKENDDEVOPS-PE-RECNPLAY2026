@@ -1,0 +1,21 @@
+{
+  "compilerOptions":{
+    // Versao do JavaScript que o TypeScript vai gerar
+    "target": "ES2020",  
+    // Formato de modulo que o TypeScript vai gerar
+    "module": "commonjs",
+    // Diretorio raiz do projeto
+    "rootDir": "./src",
+    // Diretorio onde o TypeScript vai gerar os arquivos compilados
+    "outDir": "./dist",
+    // Ativa verificacoes estritas de tipo
+    "strict": true,
+    // Permite interoperabilidade com módulos CommonJS
+    "esModuleInterop": true,
+    // Permite importações de módulos sem a extensão do arquivo
+    "skipLibCheck": true,
+    // 
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+}
