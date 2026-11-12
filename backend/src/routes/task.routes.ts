@@ -9,6 +9,10 @@ interface Task {
 }
 
 let tasks: Task[] = [];
+export function resetTasks() {
+    tasks = [];
+}
+
 
 router.get("/", (req, res) => {
     res.status(200).json(tasks);
